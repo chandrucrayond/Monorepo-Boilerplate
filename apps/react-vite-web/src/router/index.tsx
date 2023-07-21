@@ -5,7 +5,6 @@ import ErrorBoundary from '@pages/errorBoundary';
 import Home from '@pages/home';
 import LoginPage from '@pages/login';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
 import { PrivateRouter } from './privateRouter';
 
 const router = createBrowserRouter([
